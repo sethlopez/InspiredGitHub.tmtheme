@@ -1,4 +1,4 @@
-# InspiredGitHub.tmtheme
+# InspiredGitHub.tmTheme
 
 Inspired GitHub is a color scheme for Sublime Text 3. It is, obviously, heavily inspired by the syntax highlighting found on GitHub. For readability, I've slightly cut down on the amount of color in the highlighting and I've introduced bolding for certain things, such as keywords.
 
