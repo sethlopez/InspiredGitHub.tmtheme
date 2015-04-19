@@ -1,0 +1,7 @@
+# Inspired GitHub Color Scheme
+
+Thanks for checking out my color scheme! I hope you enjoy using it. If you have any questions, issues, or suggestions for improvement, feel free to create an issue on GitHub or send me a tweet and I'll do my best to help you out.
+
+Twitter: @sethlopez
+GitHub Repo: https://github.com/sethlopezme/InspiredGitHub.tmtheme
+GitHub Issues: https://github.com/sethlopezme/InspiredGitHub.tmtheme/issues

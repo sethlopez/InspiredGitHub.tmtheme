@@ -106,6 +106,36 @@
             </dict>
             
             <!--
+                RegExp Operator
+            -->
+            <dict>
+                <key>name</key>
+                <string>RegExp Operator</string>
+                <key>scope</key>
+                <string>regexp-operator</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a71d5d</string>
+                </dict>
+            </dict>
+            
+            <!--
+                RegExp Character Class
+            -->
+            <dict>
+                <key>name</key>
+                <string>RegExp Character Class</string>
+                <key>scope</key>
+                <string>string.regexp.characterclass punctuation.definition.string.begin, string.regexp.characterclass punctuation.definition.string.end</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a71d5d</string>
+                </dict>
+            </dict>
+            
+            <!--
                 Number
             -->
             <dict>
@@ -173,6 +203,23 @@
                 <string>Keyword</string>
                 <key>scope</key>
                 <string>keyword</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a71d5d</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            
+            <!--
+                Bitwise
+            -->
+            <dict>
+                <key>name</key>
+                <string>Bitwise</string>
+                <key>scope</key>
+                <string>bitwise-operator</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -439,12 +486,133 @@
             
             
             <!--
+                Diffs
+            -->
+            <!-- Header -->
+            <dict>
+                <key>name</key>
+                <string>Diff Header</string>
+                <key>scope</key>
+                <string>meta.diff.header</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#969896</string>
+                    <key>background</key>
+                    <string>#ffffff</string>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                </dict>
+            </dict>
+            <!-- Header From File Punctuation -->
+            <dict>
+                <key>name</key>
+                <string>Diff Header</string>
+                <key>scope</key>
+                <string>meta.diff.header punctuation.definition.from-file.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#bd2c00</string>
+                    <key>background</key>
+                    <string>#ffecec</string>
+                    <key>fontStyle</key>
+                    <string>italic bold</string>
+                </dict>
+            </dict>
+            <!-- Header To File Punctuation -->
+            <dict>
+                <key>name</key>
+                <string>Diff Header</string>
+                <key>scope</key>
+                <string>meta.diff.header punctuation.definition.to-file.diff</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55a532</string>
+                    <key>background</key>
+                    <string>#eaffea</string>
+                    <key>fontStyle</key>
+                    <string>italic bold</string>
+                </dict>
+            </dict>
+            <!-- Range -->
+            <dict>
+                <key>name</key>
+                <string>Diff Range</string>
+                <key>scope</key>
+                <string>meta.diff.range</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#969896</string>
+                    <key>fontStyle</key>
+                    <string>italic bold</string>
+                </dict>
+            </dict>
+            <!-- Deleted -->
+            <dict>
+                <key>name</key>
+                <string>Diff Deleted</string>
+                <key>scope</key>
+                <string>markup.deleted</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#ffecec</string>
+                </dict>
+            </dict>
+            <!-- Deleted Punctuation -->
+            <dict>
+                <key>name</key>
+                <string>Diff Deleted Punctuation</string>
+                <key>scope</key>
+                <string>markup.deleted punctuation.definition.inserted</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#bd2c00</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            <!-- Inserted -->
+            <dict>
+                <key>name</key>
+                <string>Diff Inserted</string>
+                <key>scope</key>
+                <string>markup.inserted</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#eaffea</string>
+                </dict>
+            </dict>
+            <!-- Inserted Punctuation -->
+            <dict>
+                <key>name</key>
+                <string>Diff Inserted Punctuation</string>
+                <key>scope</key>
+                <string>markup.inserted punctuation.definition.inserted</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#55a532</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            
+            
+            
+            
+            <!--
                 Git Gutter
             -->
             <!-- Deleted -->
             <dict>
                 <key>name</key>
-                <string>GitGutter deleted</string>
+                <string>GitGutter Deleted</string>
                 <key>scope</key>
                 <string>markup.deleted.git_gutter</string>
                 <key>settings</key>
@@ -456,7 +624,7 @@
             <!-- Inserted -->
             <dict>
                 <key>name</key>
-                <string>GitGutter inserted</string>
+                <string>GitGutter Inserted</string>
                 <key>scope</key>
                 <string>markup.inserted.git_gutter</string>
                 <key>settings</key>
@@ -468,7 +636,7 @@
             <!-- Modified -->
             <dict>
                 <key>name</key>
-                <string>GitGutter changed</string>
+                <string>GitGutter Modified</string>
                 <key>scope</key>
                 <string>markup.changed.git_gutter</string>
                 <key>settings</key>
@@ -480,7 +648,7 @@
             <!-- Ignored -->
             <dict>
                 <key>name</key>
-                <string>GitGutter ignored</string>
+                <string>GitGutter Ignored</string>
                 <key>scope</key>
                 <string>markup.ignored.git_gutter</string>
                 <key>settings</key>
@@ -492,7 +660,7 @@
             <!-- Untracked -->
             <dict>
                 <key>name</key>
-                <string>GitGutter untracked</string>
+                <string>GitGutter Untracked</string>
                 <key>scope</key>
                 <string>markup.untracked.git_gutter</string>
                 <key>settings</key>

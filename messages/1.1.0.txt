@@ -1,0 +1,4 @@
+# New in Inspired GitHub Color Scheme 1.1.0
+
+- Added additional syntax highlighting for regular expressions.
+- Added syntax highlighting for FileDiffs.

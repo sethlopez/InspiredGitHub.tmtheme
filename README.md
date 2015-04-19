@@ -1,4 +1,4 @@
-# InspiredGitHub.tmTheme
+# Inspired GitHub Color Scheme
 
 Inspired GitHub is a color scheme for Sublime Text 3. It is, obviously, heavily inspired by the syntax highlighting found on GitHub. For readability, I've slightly cut down on the amount of color in the highlighting and I've introduced bolding for certain things, such as keywords.
 
@@ -32,6 +32,7 @@ While this color scheme will work with any language that your Sublime Text insta
 - PHP
 - Sass/SCSS
 - Find-in-Files
+- [FileDiffs](https://packagecontrol.io/packages/FileDiffs)
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
 
 
@@ -40,8 +41,8 @@ While this color scheme will work with any language that your Sublime Text insta
 ### Package Control
 
 1. Make sure you have [Package Control](https://packagecontrol.io/installation) installed.
-1. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux; `⇧⌘P` on OSX) and choose _Install Package_.
-1. Choose _InspiredGitHub_ from the list.
+1. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux; `⌘⇧P` on OSX) and choose _Install Package_.
+1. Choose _Inspired GitHub Color Scheme_ from the list.
 1. Update the `color_scheme` setting in your User Preferences to the new theme.
 
 ### Manual
