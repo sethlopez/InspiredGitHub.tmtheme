@@ -172,7 +172,7 @@
                 <key>name</key>
                 <string>User-defined Constant</string>
                 <key>scope</key>
-                <string>constant.character, constant.other</string>
+                <string>constant.character, constant.other, variable.other.constant</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -806,6 +806,8 @@
                 <string>source.js entity.name.function</string>
                 <key>settings</key>
                 <dict>
+                    <key>foreground</key>
+                    <string>#323232</string>
                     <key>fontStyle</key>
                     <string>regular</string>
                 </dict>
@@ -818,6 +820,8 @@
                 <string>source.js meta.function entity.name.function, source.js entity.name.function meta.function</string>
                 <key>settings</key>
                 <dict>
+                    <key>foreground</key>
+                    <string>#795da3</string>
                     <key>fontStyle</key>
                     <string>bold</string>
                 </dict>
@@ -828,6 +832,42 @@
                 <string>New Function</string>
                 <key>scope</key>
                 <string>entity.name.type.new.js</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#795da3</string>
+                </dict>
+            </dict>
+            <!-- Function Prototype -->
+            <dict>
+                <key>name</key>
+                <string>Function Prototype</string>
+                <key>scope</key>
+                <string>variable.language.prototype.js</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0086b3</string>
+                </dict>
+            </dict>
+            <!-- Support Function -->
+            <dict>
+                <key>name</key>
+                <string>Support Function</string>
+                <key>scope</key>
+                <string>source.js support.function</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0086b3</string>
+                </dict>
+            </dict>
+            <!-- Console Object -->
+            <dict>
+                <key>name</key>
+                <string>Function Prototype</string>
+                <key>scope</key>
+                <string>support.type.object.console.js</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1482,6 +1522,67 @@
                 <dict>
                     <key>foreground</key>
                     <string>#323232</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            
+            
+            
+            
+            <!--
+                Ruby
+            -->
+            <!-- Language Variable -->
+            <dict>
+                <key>name</key>
+                <string>Language Variable</string>
+                <key>scope</key>
+                <string>variable.language.ruby</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ed6a43</string>
+                </dict>
+            </dict>
+            <!-- Module Name -->
+            <dict>
+                <key>name</key>
+                <string>Module Name</string>
+                <key>scope</key>
+                <string>entity.name.type.module.ruby</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#795da3</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            <!-- Class Name -->
+            <dict>
+                <key>name</key>
+                <string>Class Name</string>
+                <key>scope</key>
+                <string>entity.name.type.class.ruby</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#795da3</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+            <!-- Inherited Class -->
+            <dict>
+                <key>name</key>
+                <string>Inherited Class</string>
+                <key>scope</key>
+                <string>entity.other.inherited-class.ruby</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#795da3</string>
                     <key>fontStyle</key>
                     <string>bold</string>
                 </dict>
