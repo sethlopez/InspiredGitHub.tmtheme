@@ -1,0 +1,3 @@
+# What's New in Inspired GitHub Color Scheme 1.2.0
+
+- Fixed a long-standing issue with the color scheme where invalid text was difficult to see while the cursor was on the same line. Invalids are now presented as red and bold text with a light gray background.
