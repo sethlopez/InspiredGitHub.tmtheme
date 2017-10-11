@@ -1582,7 +1582,7 @@
                 <key>name</key>
                 <string>Punctuation</string>
                 <key>scope</key>
-                <string>punctuation.definition.heading.markdown, punctuation.definition.italic.markdown, punctuation.definition.bold.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.link.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.raw.markdown</string>
+                <string>text.html.markdown punctuation.definition</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
