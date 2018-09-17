@@ -1,0 +1,3 @@
+# What's new in Inspired GitHub Color Scheme 1.3.1
+
+- Added styling for member accessor punctuation, such as `.` for Python or JavaScript or `->` and `::` for PHP. Shout out to @robbinfellow on GitHub for the PR!
